@@ -1,0 +1,19 @@
+<template>
+  <v-layout>
+    <v-flex class="text-center">
+      <div>
+        <p>Part1</p>
+        <p>
+          お疲れさまでした
+        </p>
+        <v-btn
+          color="primary"
+          nuxt
+          to="/list"
+        >
+          トップにもどる
+        </v-btn>
+      </div>
+    </v-flex>
+  </v-layout>
+</template>

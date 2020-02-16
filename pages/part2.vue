@@ -1,0 +1,27 @@
+<template>
+  <v-layout>
+    <v-flex class="text-center">
+      <div>
+        <p>Part2</p>
+        <p>
+          工事中
+        </p>
+        <v-btn
+          color="red"
+          nuxt
+          to="/comp"
+        >
+          ○
+        </v-btn>
+        <v-btn
+          color="blue"
+          nuxt
+          to="/comp"
+          style="margin-left:10px"
+        >
+          ×
+        </v-btn>
+      </div>
+    </v-flex>
+  </v-layout>
+</template>

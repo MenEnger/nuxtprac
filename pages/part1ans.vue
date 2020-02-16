@@ -1,0 +1,22 @@
+<template>
+  <v-layout>
+    <v-flex class="text-center">
+      <div>
+        <p>Part1</p>
+        <p>
+          横断歩道では、渡る人が待っている場合は残らなければならない
+        </p>
+        <p>
+          横断歩道に人が待っているときは、その人が渡り終えるまで一時停止している必要があります。
+        </p>
+        <v-btn
+          color="primary"
+          nuxt
+          to="/comp"
+        >
+          次の問題へ
+        </v-btn>
+      </div>
+    </v-flex>
+  </v-layout>
+</template>
