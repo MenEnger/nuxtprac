@@ -7,6 +7,9 @@ export default {
   */
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
+    htmlAttrs: {
+      lang: 'ja'
+    },
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -17,6 +20,21 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
+  manifest: {
+    name: 'ライセンスのテスト',
+    title: 'ライセンスのテスト',
+    'og:title': 'ライセンスのテスト',
+    description: 'テストです',
+    'og:description': 'テストです',
+    lang: 'ja',
+    theme_color: '#529b58',
+    background_color: '#bde0c0',
+    display: 'standalone',
+    scope: '/',
+    start_url: '/category'
+  },
+
   /*
   ** Customize the progress-bar color
   */
