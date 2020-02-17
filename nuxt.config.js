@@ -32,7 +32,7 @@ export default {
     background_color: '#272727',
     display: 'standalone',
     scope: '/',
-    start_url: '/category'
+    start_url: '/'
   },
 
   /*
