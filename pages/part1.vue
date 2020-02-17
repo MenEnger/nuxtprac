@@ -37,16 +37,16 @@ export default {
 
 <style>
 .container {
-  transition: all 1s ease-out;
+  transition: all 0.7s ease-out;
 }
 .slide-left-enter,
 .slide-right-leave-active {
   opacity: 0;
-  transform: translate(30px, 0);
+  transform: translate(60px, 0);
 }
 .slide-left-leave-active,
 .slide-right-enter {
   opacity: 0;
-  transform: translate(-30px, 0);
+  transform: translate(-60px, 0);
 }
 </style>
