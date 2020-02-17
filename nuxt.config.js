@@ -28,8 +28,8 @@ export default {
     description: 'テストです',
     'og:description': 'テストです',
     lang: 'ja',
-    theme_color: '#529b58',
-    background_color: '#bde0c0',
+    theme_color: '#121212',
+    background_color: '#272727',
     display: 'standalone',
     scope: '/',
     start_url: '/category'
