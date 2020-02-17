@@ -1,5 +1,5 @@
 <template>
-  <v-layout>
+  <v-layout class="container">
     <v-flex class="text-center">
       <div>
         <p>Part1</p>
@@ -25,3 +25,28 @@
     </v-flex>
   </v-layout>
 </template>
+
+<script>
+export default {
+  // Called to know which transition to apply
+  transition (to, from) {
+    return 'slide-left'
+  }
+}
+</script>
+
+<style>
+.container {
+  transition: all 1s ease-out;
+}
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate(30px, 0);
+}
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 0;
+  transform: translate(-30px, 0);
+}
+</style>
