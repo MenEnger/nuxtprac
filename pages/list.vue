@@ -22,6 +22,11 @@
               <v-list-item-title>Part2</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          <v-list-item to="/part2">
+            <v-list-item-content>
+              <v-list-item-title>Part3</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
         </v-list>
       </v-card>
     </v-flex>
