@@ -9,14 +9,14 @@
         <v-btn
           color="red"
           nuxt
-          to="/part1ans"
+          to="/part1ans/true"
         >
           ○
         </v-btn>
         <v-btn
           color="blue"
           nuxt
-          to="/part1ans"
+          to="/part1ans/false"
           style="margin-left:10px"
         >
           ×
