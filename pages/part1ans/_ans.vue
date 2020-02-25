@@ -27,15 +27,13 @@
   </v-layout>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
   data () {
-    // data judge () {
     return { isCorrect: this.$route.params.ans === 'true' }
-    // }
   }
-
-}
+})
 </script>
 
 <style lang="scss">
